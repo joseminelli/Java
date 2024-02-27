@@ -4,11 +4,11 @@ Aqui, você encontrará todos os meus projetos e códigos na linguagem java. Tud
 
 ## Estrutura do Repositório
 
-- **Java** Este diretório contém os códigos desenvolvidos em linguagem C. <br>
+- **Faculdade** Este diretório contém os códigos desenvolvidos em aula ou para atividades <br>
     ‎ ‎ ‎   ╎<br>
-     ‎ ‎ ‎  ╰-- [Aula1](/Aula1/)<br>
+     ‎ ‎ ‎  ╰-- [Aula1](/Faculdade/Aula1/)<br>
     ‎ ‎ ‎   ╎<br>
-    ‎ ‎ ‎   ╰-- [Exercicio_Pratico_01](/Exercicio_Pratico_01)<br>
+    ‎ ‎ ‎   ╰-- [Exercicio_Pratico_01](/Faculdade/Exercicio_Pratico_01)<br>
 
 ## Uso e Contribuições
 
