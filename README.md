@@ -4,7 +4,7 @@ Aqui, você encontrará todos os meus projetos e códigos na linguagem java. Tud
 
 ## Estrutura do Repositório
 
-- **Faculdade** Este diretório contém os códigos desenvolvidos em aula ou para atividades <br>
+- [**Faculdade**](/Faculdade/) Este diretório contém os códigos desenvolvidos em aula ou para atividades <br>
     ‎ ‎ ‎   ╎<br>
      ‎ ‎ ‎  ╰-- [Aula1](/Faculdade/Aula1/)<br>
     ‎ ‎ ‎   ╎<br>
