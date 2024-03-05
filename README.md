@@ -6,9 +6,13 @@ Aqui, você encontrará todos os meus projetos e códigos na linguagem java. Tud
 
 - [**Faculdade**](/Faculdade/) Este diretório contém os códigos desenvolvidos em aula ou para atividades <br>
     ‎ ‎ ‎   ╎<br>
-     ‎ ‎ ‎  ╰-- [Aula1](/Faculdade/Aula1/)<br>
+     ‎ ‎ ‎  ╰-- [Aula 1](/Faculdade/Aula1/)<br>
+    ‎ ‎ ‎   ╎<br>
+     ‎ ‎ ‎  ╰-- [Aula 2](/Faculdade/Aula2/)<br>
     ‎ ‎ ‎   ╎<br>
     ‎ ‎ ‎   ╰-- [Exercicio_Pratico_01](/Faculdade/Exercicio_Pratico_01)<br>
+    ‎ ‎ ‎   ╎<br>
+    ‎ ‎ ‎   ╰-- [Exercicio_Pratico_02](/Faculdade/Exercicio_Pratico_02)<br>
 
 ## Uso e Contribuições
 
