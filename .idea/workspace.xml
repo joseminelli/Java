@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec530ab3-832f-4a82-89b5-e214a03701e1" name="Changes" comment="Aula2 add">
+    <list default="true" id="ec530ab3-832f-4a82-89b5-e214a03701e1" name="Changes" comment="Aula2 update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,13 +84,22 @@
       <option name="project" value="LOCAL" />
       <updated>1709598602349</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Aula2 update">
+      <option name="closed" value="true" />
+      <created>1709600188080</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709600188080</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Projetos reorganizados" />
     <MESSAGE value=".idea" />
     <MESSAGE value="Aula2 add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula2 add" />
+    <MESSAGE value="Aula2 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula2 update" />
   </component>
 </project>
