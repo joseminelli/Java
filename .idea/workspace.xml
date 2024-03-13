@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec530ab3-832f-4a82-89b5-e214a03701e1" name="Changes" comment="Exercicio_Pratico_02 add">
+    <list default="true" id="ec530ab3-832f-4a82-89b5-e214a03701e1" name="Changes" comment="Treinamento add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculdade/Treinamento/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Faculdade/Treinamento/.idea/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709675595786</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Treinamento add">
+      <option name="closed" value="true" />
+      <created>1709680718857</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709680718857</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -109,6 +118,7 @@
     <MESSAGE value="Aula2 add" />
     <MESSAGE value="Aula2 update" />
     <MESSAGE value="Exercicio_Pratico_02 add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicio_Pratico_02 add" />
+    <MESSAGE value="Treinamento add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Treinamento add" />
   </component>
 </project>
