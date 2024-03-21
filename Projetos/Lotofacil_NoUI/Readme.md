@@ -18,12 +18,17 @@ Além das opções de apostas numéricas e alfabéticas, o jogo oferece a funcio
 
 ## Execução
 
+
+## Execução
+
 Para executar o jogo, compile e execute o arquivo `Lotofacil.java` em um ambiente Java.
 
 ```bash
 javac Lotofacil.java
 java Lotofacil
 ```
+
+Se preferir, você pode usar o IntelliJ IDEA para compilar e executar o projeto diretamente.
 
 ## Requisitos
 
