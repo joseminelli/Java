@@ -32,7 +32,7 @@ Se preferir, você pode usar o IntelliJ IDEA para compilar e executar o projeto 
 
 ## Requisitos
 
-- JDK (Java Development Kit) instalado no sistema.
+- JDK 17 (Java Development Kit) instalado no sistema.
 - O projeto foi desenvolvido utilizando o IntelliJ IDEA.
 
 ## Documentação
