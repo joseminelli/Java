@@ -45,10 +45,6 @@ Se preferir, você pode usar o IntelliJ IDEA para compilar e executar o projeto 
 ## Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request ou relatar problemas.
-
-## Licença
-
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
 ```
 
 Certifique-se de incluir as seções necessárias para descrever seu projeto de forma clara e concisa. Você pode personalizar o arquivo README conforme necessário para atender às especificações do seu projeto. Além disso, lembre-se de adicionar o arquivo `LICENSE` se desejar incluir uma licença específica para o seu projeto.
