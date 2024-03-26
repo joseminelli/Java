@@ -15,6 +15,10 @@ Aqui, você encontrará todos os meus projetos e códigos na linguagem java. Tud
     ‎ ‎ ‎   ╰-- [Exercicio_Pratico_02](/Faculdade/Exercicio_Pratico_02)<br>
     ‎ ‎ ‎   ╎<br>
     ‎ ‎ ‎   ╰-- Mais códigos na pasta [**Faculdade**](/Faculdade/)...<br>
+
+- [**Projetos**](/Projetos/) Este diretório contém alguns projetos desenvolvido para a faculdade e alguns extracurriculares <br>
+    ‎ ‎ ‎   ╎<br>
+     ‎ ‎ ‎  ╰-- [Lotofácio Sem UI](/Projetos/Lotofacil_NoUI)<br>
             
 
 ## Uso e Contribuições
