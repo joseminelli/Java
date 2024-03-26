@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec530ab3-832f-4a82-89b5-e214a03701e1" name="Changes" comment="Treinamento add">
+    <list default="true" id="ec530ab3-832f-4a82-89b5-e214a03701e1" name="Changes" comment="Lotofacil_NoUI">
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_03_2024_20_19__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_03_2024_17_50_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Treinamento/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Faculdade/Treinamento/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_03/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_03/src/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_04/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_04/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +113,39 @@
       <option name="project" value="LOCAL" />
       <updated>1709680718857</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Atividade 03 + aula add">
+      <option name="closed" value="true" />
+      <created>1710362993882</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710362993882</updated>
+    </task>
+    <task id="LOCAL-00009" summary="gitignore update">
+      <option name="closed" value="true" />
+      <created>1710363035864</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710363035864</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Atividade 04">
+      <option name="closed" value="true" />
+      <created>1710951165106</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710951165106</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Lotofacil_NoUI">
+      <option name="closed" value="true" />
+      <created>1710965454006</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710965454006</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -119,6 +155,10 @@
     <MESSAGE value="Aula2 update" />
     <MESSAGE value="Exercicio_Pratico_02 add" />
     <MESSAGE value="Treinamento add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Treinamento add" />
+    <MESSAGE value="Atividade 03 + aula add" />
+    <MESSAGE value="gitignore update" />
+    <MESSAGE value="Atividade 04" />
+    <MESSAGE value="Lotofacil_NoUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lotofacil_NoUI" />
   </component>
 </project>

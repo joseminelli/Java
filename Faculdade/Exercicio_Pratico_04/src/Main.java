@@ -4,6 +4,7 @@ public class Main {
         Livro livro2 = new Livro("Fahrenheit 451", 1953, "Ray Bradbury");
 
         livro1.setEmprestimo(new E_CurtoPrazo(0.3f));
+
         livro2.setEmprestimo(new E_LongoPrazo(0.2f));
 
         livro1.getMulta(10);

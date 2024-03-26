@@ -8,7 +8,7 @@ public class Principal {
 
         System.out.println("\nAlterando dados do aluno1...\n");
 
-        aluno1.SetNome("Raissa Navarro");
+        aluno1.SetNome("Raissa Lauar");
         aluno1.SetMatricula("000000000");
         aluno1.SetIdade(19);
 
