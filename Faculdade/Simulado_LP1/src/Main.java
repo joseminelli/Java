@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -27,6 +28,7 @@ public class Main {
         int portaPremiada = random.nextInt(3) + 1;
         int portaEscolhida = escolherPorta();
         int portaVazia;
+        boolean trocou = false, ganhou = false;
 
         do {
             portaVazia = random.nextInt(3) + 1;
@@ -38,19 +40,26 @@ public class Main {
 
         if ("s".equals(trocar)) {
             portaEscolhida = 6 - portaEscolhida - portaVazia;
+            trocou = true;
         }
 
         if (portaEscolhida == portaPremiada) {
             System.out.println("\nVocê ganhou!\n");
+            ganhou = true;
         } else {
-            System.out.println("\nVocê perdeu! A porta premiada era a " + portaPremiada + "\n");
+            System.out.println("\nVocê perdeu! A porta sorteada era a " + portaPremiada + "\n");
         }
 
-        System.out.println("Deseja jogar novamente? (s/n)");
+        System.out.println("Deseja ver as estatísticas da partida? (s/n)");
+        if ("s".equals(scanner.nextLine().toLowerCase())) {
+            System.out.println("\n=== Stats ===\nPorta premiada: " + portaPremiada + "\nPorta escolhida: " + portaEscolhida + "\nPorta vazia: " + portaVazia + "\nTrocou de porta: " + (trocou ? "Sim" : "Não") + "\n" +"Você "+(ganhou ? "GANHOU" : "PERDEU") + " o jogo.");
+        }
+
+        System.out.println("\nDeseja jogar novamente? (s/n)");
         if ("s".equals(scanner.nextLine().toLowerCase())) {
             jogo();
         } else {
-            System.out.println("Saindo...");
+            System.out.println("Saindo... Obrigado por jogar!");
         }
     }
 
