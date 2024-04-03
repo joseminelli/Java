@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Main {
     private static final Scanner scanner = new Scanner(System.in);
-
     public static int escolherPorta() {
         int portaEscolhida;
         do {
@@ -20,7 +19,6 @@ public class Main {
         } while (portaEscolhida < 1 || portaEscolhida > 3);
         return portaEscolhida;
     }
-
     public static void jogo() {
         Random random = new Random();
 
@@ -64,7 +62,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-
         jogo();
     }
 }
