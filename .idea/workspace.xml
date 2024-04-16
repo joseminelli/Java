@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec530ab3-832f-4a82-89b5-e214a03701e1" name="Changes" comment="Atualização 1° Simulado LP" />
+    <list default="true" id="ec530ab3-832f-4a82-89b5-e214a03701e1" name="Changes" comment="Loteria GUI para Atividade">
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712099688374</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Loteria GUI para Atividade">
+      <option name="closed" value="true" />
+      <created>1712153322131</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1712153322131</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -187,6 +198,7 @@
     <MESSAGE value="Atividad pratica 5, 6 e 7" />
     <MESSAGE value="1° Simulado LP" />
     <MESSAGE value="Atualização 1° Simulado LP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualização 1° Simulado LP" />
+    <MESSAGE value="Loteria GUI para Atividade" />
+    <option name="LAST_COMMIT_MESSAGE" value="Loteria GUI para Atividade" />
   </component>
 </project>
