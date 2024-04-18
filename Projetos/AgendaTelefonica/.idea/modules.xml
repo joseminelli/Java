@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/QuintoPrj.iml" filepath="$PROJECT_DIR$/QuintoPrj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AgendaTelefonica.iml" filepath="$PROJECT_DIR$/AgendaTelefonica.iml" />
     </modules>
   </component>
 </project>
