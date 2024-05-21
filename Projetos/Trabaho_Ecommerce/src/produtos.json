@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "nome": "Camisa Nirvana",
+    "preco": 29.9,
+    "quantidade": 3
+  },
+  {
+    "id": 2,
+    "nome": "Vinil - Enema Of The State",
+    "preco": 79.9,
+    "quantidade": 4
+  },
+  {
+    "id": 3,
+    "nome": "Camisa Ramones",
+    "preco": 29.9,
+    "quantidade": 10
+  },
+  {
+    "id": 4,
+    "nome": "Camisa Metallica",
+    "preco": 19.9,
+    "quantidade": 10
+  },
+  {
+    "id": 5,
+    "nome": "Teste",
+    "preco": 5.0,
+    "quantidade": 0
+  }
+]

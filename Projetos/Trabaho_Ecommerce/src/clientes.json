@@ -1,0 +1,10 @@
+{
+  "id": 1,
+  "nome": "José",
+  "email": "joseminelli04@gmail.com",
+  "endereco": {
+    "rua": "Sylvio Andrade 415",
+    "cidade": "Belo Horizonte",
+    "cep": "30882-560"
+  }
+}

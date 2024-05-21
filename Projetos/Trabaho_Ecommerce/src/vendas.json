@@ -1,0 +1,63 @@
+[
+  {
+    "id": 0
+  },
+  {
+    "id": 2,
+    "cliente": {
+      "id": 1,
+      "nome": "José",
+      "email": "joseminelli04@gmail.com",
+      "endereco": {
+        "rua": "Sylvio Andrade 415",
+        "cidade": "Belo Horizonte",
+        "cep": "30882-560"
+      }
+    },
+    "itens": [
+      {
+        "produto": {
+          "id": 5,
+          "nome": "Teste",
+          "preco": 5.0,
+          "quantidade": 1
+        },
+        "quantidade": 1
+      }
+    ],
+    "data": "May 21, 2024, 8:45:15 PM",
+    "formaPagamento": {
+      "nome": "Pix"
+    },
+    "status": "Em andamento"
+  },
+  {
+    "id": 3,
+    "cliente": {
+      "id": 1,
+      "nome": "José",
+      "email": "joseminelli04@gmail.com",
+      "endereco": {
+        "rua": "Sylvio Andrade 415",
+        "cidade": "Belo Horizonte",
+        "cep": "30882-560"
+      }
+    },
+    "itens": [
+      {
+        "produto": {
+          "id": 5,
+          "nome": "Teste",
+          "preco": 5.0,
+          "quantidade": 1
+        },
+        "quantidade": 1
+      }
+    ],
+    "data": "May 21, 2024, 8:46:38 PM",
+    "formaPagamento": {
+      "nome": "Pix"
+    },
+    "status": "Em andamento"
+  }
+]
