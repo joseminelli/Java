@@ -1,11 +1,1 @@
-[
-  {
-    "produto": {
-      "id": 5,
-      "nome": "Teste",
-      "preco": 5.0,
-      "quantidade": 1
-    },
-    "quantidade": 1
-  }
-]
+[]

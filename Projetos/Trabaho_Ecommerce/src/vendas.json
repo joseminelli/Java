@@ -1,12 +1,44 @@
 [
   {
-    "id": 0
+    "id": 1,
+    "cliente": {
+      "id": 1,
+      "nome": "José Minelli",
+      "email": "joseminelli04@gmail.com",
+      "endereco": {
+        "rua": "Sylvio Andrade 415",
+        "cidade": "Belo Horizonte",
+        "cep": "30882-560"
+      }
+    },
+    "itens": [
+      {
+        "produto": {
+          "id": 3,
+          "nome": "Camisa Ramones",
+          "preco": 29.9,
+          "quantidade": 10
+        },
+        "quantidade": 1
+      },
+      {
+        "produto": {
+          "id": 2,
+          "nome": "Vinil - Enema Of The State",
+          "preco": 79.9,
+          "quantidade": 4
+        },
+        "quantidade": 1
+      }
+    ],
+    "data": "May 22, 2024, 12:31:42 PM",
+    "status": "Em andamento"
   },
   {
     "id": 2,
     "cliente": {
       "id": 1,
-      "nome": "José",
+      "nome": "José Minelli",
       "email": "joseminelli04@gmail.com",
       "endereco": {
         "rua": "Sylvio Andrade 415",
@@ -17,47 +49,24 @@
     "itens": [
       {
         "produto": {
-          "id": 5,
-          "nome": "Teste",
-          "preco": 5.0,
-          "quantidade": 1
+          "id": 3,
+          "nome": "Camisa Ramones",
+          "preco": 29.9,
+          "quantidade": 9
         },
         "quantidade": 1
-      }
-    ],
-    "data": "May 21, 2024, 8:45:15 PM",
-    "formaPagamento": {
-      "nome": "Pix"
-    },
-    "status": "Em andamento"
-  },
-  {
-    "id": 3,
-    "cliente": {
-      "id": 1,
-      "nome": "José",
-      "email": "joseminelli04@gmail.com",
-      "endereco": {
-        "rua": "Sylvio Andrade 415",
-        "cidade": "Belo Horizonte",
-        "cep": "30882-560"
-      }
-    },
-    "itens": [
+      },
       {
         "produto": {
-          "id": 5,
-          "nome": "Teste",
-          "preco": 5.0,
-          "quantidade": 1
+          "id": 2,
+          "nome": "Vinil - Enema Of The State",
+          "preco": 79.9,
+          "quantidade": 3
         },
         "quantidade": 1
       }
     ],
-    "data": "May 21, 2024, 8:46:38 PM",
-    "formaPagamento": {
-      "nome": "Pix"
-    },
+    "data": "May 22, 2024, 12:33:40 PM",
     "status": "Em andamento"
   }
 ]

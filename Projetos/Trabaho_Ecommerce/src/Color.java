@@ -24,4 +24,28 @@ public class Color {
         System.out.print("\u001B[0m");
     }
 
+    public static void RandomColor(){
+        int random = (int) (Math.random() * 6);
+        switch (random){
+            case 0:
+                Yellow();
+                break;
+            case 1:
+                Green();
+                break;
+            case 2:
+                Blue();
+                break;
+            case 3:
+                Purple();
+                break;
+            case 4:
+                Cyan();
+                break;
+            case 5:
+                White();
+                break;
+        }
+    }
+
 }
