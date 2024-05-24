@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -31,14 +30,14 @@ public class Main {
 
             switch (opcao) {
                 case 1:
-                    GerenciarProdutosMenu(scanner, produtos, carrinho, cliente);
+                    GerenciarProdutosMenu(scanner);
                     break;
                 case 2:
                     Estoque.listarProdutos();
                     Encerrar();
                     break;
                 case 3:
-                    Carrinho(carrinho, produtos, cliente);
+                    Carrinho(carrinho, produtos);
                     Encerrar();
                     break;
                 case 4:
@@ -83,7 +82,7 @@ public class Main {
         }
     }
 
-    private static void GerenciarProdutosMenu(Scanner scanner, List<Produto> produtos, Carrinho carrinho, Cliente cliente) {
+    private static void GerenciarProdutosMenu(Scanner scanner) {
         Color.Blue();
         System.out.println("\n### GERENCIAR PRODUTOS ###");
         Color.RESET();
@@ -117,7 +116,7 @@ public class Main {
         Estoque.removerProduto(idProduto);
     }
 
-   static void Carrinho(Carrinho carrinho, List<Produto> produtos, Cliente cliente) {
+   static void Carrinho(Carrinho carrinho, List<Produto> produtos) {
         Scanner scanner = new Scanner(System.in);
         while (true) {
             Color.Blue();
@@ -134,7 +133,7 @@ public class Main {
 
             switch (opcao) {
                 case 1:
-                    AddCarrinho(carrinho, scanner, produtos, cliente);
+                    AddCarrinho(carrinho, scanner, produtos);
                     Encerrar();
                     break;
                 case 2:
@@ -193,7 +192,7 @@ public class Main {
         }
     }
 
-    private static void AddCarrinho(Carrinho carrinho, Scanner scanner, List<Produto> produtos, Cliente cliente) {
+    private static void AddCarrinho(Carrinho carrinho, Scanner scanner, List<Produto> produtos) {
         if (carrinho == null) {
             System.out.println("Carrinho não encontrado...");
         } else {

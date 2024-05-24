@@ -46,14 +46,13 @@ public class Carrinho {
     public boolean removerItem(ItemVenda item) {
         File file = new File();
         List<ItemVenda> itens = file.ReadArrayJson("src/carrinho.json", ItemVenda.class);
-        Estoque estoque = new Estoque();
-            for (ItemVenda i : itens) {
-                if (i.getProduto().getId() == item.getProduto().getId()) {
-                    itens.remove(i);
-                    file.WriteArrayJson("src/carrinho.json", itens);
-                    return true;
-                }
+        for (ItemVenda i : itens) {
+            if (i.getProduto().getId() == item.getProduto().getId()) {
+                itens.remove(i);
+                file.WriteArrayJson("src/carrinho.json", itens);
+                return true;
             }
+        }
         return false;
     }
 

@@ -49,7 +49,6 @@ public class Cliente {
 
     public void VerVendas(){
         File file = new File();
-        List<Venda> vendas = file.ReadArrayJson("src/vendas.json", Venda.class);
         Color.Cyan();
         System.out.println("\n### VENDAS DO CLIENTE ###");
         Color.RESET();
