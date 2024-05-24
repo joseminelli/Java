@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.List;
 
 public class Cliente {
     private int id;
@@ -48,7 +47,6 @@ public class Cliente {
     }
 
     public void VerVendas(){
-        File file = new File();
         Color.Cyan();
         System.out.println("\n### VENDAS DO CLIENTE ###");
         Color.RESET();

@@ -18,7 +18,7 @@ public class File {
             String json = gson.toJson(objetos);
             writer.write(json);
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Erro ao escrever array ao json. " + e.getMessage());
         }
     }
 
@@ -28,31 +28,27 @@ public class File {
             String json = gson.toJson(objeto);
             writer.write(json);
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Erro ao escrever objeto ao json. " + e.getMessage());
         }
     }
 
     public void AddObjectJson(String path, Object objeto) {
-        try (BufferedReader reader = new BufferedReader(new FileReader(path))) {
-            Gson gson = new Gson();
-            String json = reader.readLine();
+        try {
             List<Object> objetos = this.ReadArrayJson(path, Object.class);
             objetos.add(objeto);
             WriteArrayJson(path, objetos);
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Erro ao adicionar objeto ao arquivo. " + e.getMessage());
         }
     }
 
     public void RemoveObjectJson(String path, Object objeto) {
-        try (BufferedReader reader = new BufferedReader(new FileReader(path))) {
-            Gson gson = new Gson();
-            String json = reader.readLine();
+        try {
             List<Object> objetos = this.ReadArrayJson(path, Object.class);
             objetos.remove(objeto);
             WriteArrayJson(path, objetos);
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Erro ao remover objeto do arquivo. " + e.getMessage());
         }
     }
 
@@ -62,7 +58,7 @@ public class File {
             Type typeOfT = TypeToken.getParameterized(List.class, clazz).getType();
             return gson.fromJson(reader, typeOfT);
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Erro ao Ler array no arquvo. " + e.getMessage());
             return new ArrayList<>();
         }
     }
@@ -72,7 +68,7 @@ public class File {
             Gson gson = new Gson();
             return gson.fromJson(reader, clazz);
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Erro ao ler Objeto no arquvo." + e.getMessage());
             return null;
         }
     }

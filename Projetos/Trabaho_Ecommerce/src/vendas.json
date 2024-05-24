@@ -6,9 +6,9 @@
       "nome": "José Minelli",
       "email": "joseminelli04@gmail.com",
       "endereco": {
-        "rua": "Sylvio Andrade 415",
+        "rua": "Uma rua qualquer",
         "cidade": "Belo Horizonte",
-        "cep": "30882-560"
+        "cep": "12345-678"
       }
     },
     "itens": [
@@ -41,9 +41,9 @@
       "nome": "José Minelli",
       "email": "joseminelli04@gmail.com",
       "endereco": {
-        "rua": "Sylvio Andrade 415",
+        "rua": "Uma rua qualquer",
         "cidade": "Belo Horizonte",
-        "cep": "30882-560"
+        "cep": "12345-678"
       }
     },
     "itens": [

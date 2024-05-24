@@ -1,26 +1,34 @@
 [
   {
-    "id": 1,
+    "id": 1.0,
     "nome": "Camisa Nirvana",
     "preco": 29.9,
-    "quantidade": 3
+    "quantidade": 3.0
   },
   {
-    "id": 2,
+    "id": 2.0,
     "nome": "Vinil - Enema Of The State",
     "preco": 79.9,
-    "quantidade": 10
+    "quantidade": 10.0
   },
   {
-    "id": 3,
+    "id": 3.0,
     "nome": "Camisa Ramones",
     "preco": 29.9,
-    "quantidade": 10
+    "quantidade": 10.0
   },
   {
-    "id": 4,
+    "id": 4.0,
     "nome": "Camisa AC/DC",
     "preco": 29.9,
-    "quantidade": 4
+    "quantidade": 4.0
+  },
+  {
+    "categoria": "Blusa",
+    "cor": "Vermelha",
+    "id": 5,
+    "nome": "Camisa Grilo",
+    "preco": 50.0,
+    "quantidade": 6
   }
 ]
