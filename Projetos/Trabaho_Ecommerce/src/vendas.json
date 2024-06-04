@@ -68,5 +68,110 @@
     ],
     "data": "May 22, 2024, 12:33:40 PM",
     "status": "Em andamento"
+  },
+  {
+    "id": 3,
+    "cliente": {
+      "id": 1,
+      "nome": "José Minelli",
+      "email": "zecarminelli@gmail.com",
+      "endereco": {
+        "rua": "Rua Sylvio Andrade 415",
+        "cidade": "Belo Horizonte",
+        "cep": "30882560"
+      }
+    },
+    "itens": [
+      {
+        "produto": {
+          "id": 5,
+          "nome": "Camisa Grilo",
+          "preco": 50.0,
+          "quantidade": 6
+        },
+        "quantidade": 1
+      },
+      {
+        "produto": {
+          "id": 2,
+          "nome": "Vinil - Enema Of The State",
+          "preco": 79.9,
+          "quantidade": 10
+        },
+        "quantidade": 1
+      }
+    ],
+    "data": "Jun 3, 2024, 8:30:31 PM",
+    "status": "Concluída"
+  },
+  {
+    "id": 4,
+    "cliente": {
+      "id": 1,
+      "nome": "José Minelli",
+      "email": "zecarminelli@gmail.com",
+      "endereco": {
+        "rua": "Rua Sylvio Andrade 415",
+        "cidade": "Belo Horizonte",
+        "cep": "30882560"
+      }
+    },
+    "itens": [
+      {
+        "produto": {
+          "id": 5,
+          "nome": "Camisa Grilo",
+          "preco": 50.0,
+          "quantidade": 6
+        },
+        "quantidade": 1
+      },
+      {
+        "produto": {
+          "id": 2,
+          "nome": "Vinil - Enema Of The State",
+          "preco": 79.9,
+          "quantidade": 10
+        },
+        "quantidade": 1
+      }
+    ],
+    "data": "Jun 3, 2024, 8:35:29 PM",
+    "status": "Concluída"
+  },
+  {
+    "id": 5,
+    "cliente": {
+      "id": 1,
+      "nome": "José Minelli",
+      "email": "zecarminelli@gmail.com",
+      "endereco": {
+        "rua": "Rua Sylvio Andrade 415",
+        "cidade": "Belo Horizonte",
+        "cep": "30882560"
+      }
+    },
+    "itens": [
+      {
+        "produto": {
+          "id": 5,
+          "nome": "Camisa Grilo",
+          "preco": 50.0,
+          "quantidade": 6
+        },
+        "quantidade": 1
+      },
+      {
+        "produto": {
+          "id": 2,
+          "nome": "Vinil - Enema Of The State",
+          "preco": 79.9,
+          "quantidade": 10
+        },
+        "quantidade": 1
+      }
+    ],
+    "data": "Jun 3, 2024, 8:37:04 PM",
+    "status": "Concluída"
   }
 ]

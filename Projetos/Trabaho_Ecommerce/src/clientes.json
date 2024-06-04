@@ -1,10 +1,10 @@
 {
   "id": 1,
   "nome": "José Minelli",
-  "email": "joseminelli04@gmail.com",
+  "email": "zecarminelli@gmail.com",
   "endereco": {
-    "rua": "Uma rua qualquer",
+    "rua": "Rua Sylvio Andrade 415",
     "cidade": "Belo Horizonte",
-    "cep": "12345-678"
+    "cep": "30882560"
   }
 }

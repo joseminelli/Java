@@ -77,6 +77,22 @@ public class Estoque {
         Color.RESET();
     }
 
+
+    public static void addprodutoGUI(String nomeProduto, double precoProduto, String categoriaProduto, int quantidadeProduto, String corBanda){
+        File file = new File();
+        List<Produto> produtos = file.ReadArrayJson("src/produtos.json", Produto.class);
+        switch (categoriaProduto) {
+            case "Blusa":
+                Produto novaBlusa = new Blusa(produtos.size() + 1, nomeProduto, precoProduto, quantidadeProduto, corBanda);
+                file.AddObjectJson("src/produtos.json", novaBlusa);
+                break;
+            case "Vinil":
+                Produto novoVinil = new Vinil(produtos.size() + 1, nomeProduto, precoProduto, quantidadeProduto, corBanda);
+                file.AddObjectJson("src/produtos.json", novoVinil);
+                break;
+        }
+    }
+
     public static void removerProduto(int id) {
         File file = new File();
         List<Produto> produtos = file.ReadArrayJson("src/produtos.json", Produto.class);
@@ -106,6 +122,12 @@ public class Estoque {
             System.out.println("ID: " +produto.getId() + " - " + produto.getNome() + " - " + NumberFormat.getCurrencyInstance().format(produto.getPreco()) + " - " + produto.getQuantidade() + " unidade(s)");
             Color.RESET();
         }
+    }
+
+    public List<Produto> getProdutos() {
+        File file = new File();
+        List<Produto> produtos = file.ReadArrayJson("src/produtos.json", Produto.class);
+        return produtos;
     }
 
     public boolean verificarDisponibilidade(ItemVenda item) {

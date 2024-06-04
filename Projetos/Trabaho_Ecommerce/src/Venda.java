@@ -46,6 +46,34 @@ public class Venda {
         }
     }
 
+    public static List<Venda> getVendas(){
+        File file = new File();
+        return file.ReadArrayJson("src/vendas.json", Venda.class);
+    }
+
+
+    public String VendaToString() {
+        StringBuilder output = new StringBuilder();
+        File file = new File();
+        List<Venda> vendas = file.ReadArrayJson("src/vendas.json", Venda.class);
+        for (Venda venda : vendas) {
+            output.append("\n===== VENDA ID: ").append(venda.id).append(" =====\n");
+            output.append("Cliente: ").append(venda.cliente.getNome()).append("\n");
+            output.append("Data: ").append(venda.data).append("\n");
+            output.append("Status: ").append(venda.status).append("\n\n");
+            output.append("Itens: \n");
+            for (ItemVenda item : venda.itens) {
+                output.append("Produto: ").append(item.getProduto().getNome()).append("\n");
+                output.append("Quantidade: ").append(item.getQuantidade()).append("\n");
+                output.append("Preço unitário: ").append(NumberFormat.getCurrencyInstance().format(item.getProduto().getPreco())).append("\n");
+                output.append("Subtotal: ").append(NumberFormat.getCurrencyInstance().format(item.getSubtotal())).append("\n\n");
+            }
+            output.append("Total: ").append(NumberFormat.getCurrencyInstance().format(venda.calcularTotal())).append("\n\n");
+        }
+        return output.toString();
+    }
+
+
     public double calcularTotal() {
         double total = 0.0;
         for (ItemVenda item : itens) {
@@ -60,6 +88,14 @@ public class Venda {
 
     public void setStatus(String status) {
         this.status = status;
+    }
+
+    public Date getData() {
+        return data;
+    }
+
+    public String getStatus() {
+        return status;
     }
 
     public Cliente getCliente() {

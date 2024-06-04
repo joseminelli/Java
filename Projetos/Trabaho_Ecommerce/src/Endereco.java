@@ -33,4 +33,8 @@ public class Endereco {
     public void setRua(String rua) {
         this.rua = rua;
     }
+
+    public String toString() {
+        return "Rua: " + rua + ", Cidade: " + cidade + ", CEP: " + cep;
+    }
 }

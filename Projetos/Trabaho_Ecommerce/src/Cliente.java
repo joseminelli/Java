@@ -74,6 +74,13 @@ public class Cliente {
         return new Cliente(1, nomeCliente, emailCliente, enderecoCliente);
     }
 
+    public static Cliente CadastrarClienteGUI(String nome, String email, String rua, String cidade, String cep){
+        File file = new File();
+        Endereco enderecoCliente = new Endereco(rua, cidade, cep);
+        file.WriteJson("src/clientes.json", new Cliente(1, nome, email, enderecoCliente));
+        return new Cliente(1, nome, email, enderecoCliente);
+    }
+
     public int getId() {
         return id;
     }
@@ -100,6 +107,10 @@ public class Cliente {
 
     public Endereco getEndereco() {
         return endereco;
+    }
+
+    public String getEnderecoString() {
+        return endereco.getRua() + ", " + endereco.getCidade() + " - " + endereco.getCep();
     }
 
     public void setEndereco(Endereco endereco) {

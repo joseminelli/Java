@@ -138,6 +138,8 @@ public class Carrinho {
         itens.clear();
     }
 
+
+
     public void FinalizarCompra() {
         if (this.getItens().isEmpty()) {
             System.out.println("Carrinho vazio. Não é possível finalizar a compra.");

@@ -1,3 +1,6 @@
+
+import java.text.NumberFormat;
+
 public class ItemVenda {
     private Produto produto;
     private int quantidade;
@@ -25,5 +28,9 @@ public class ItemVenda {
 
     public int getQuantidade() {
         return quantidade;
+    }
+
+    public String ItemVendaToString() {
+        return produto.getNome() + ": " + quantidade + " unidade(s) - " + NumberFormat.getCurrencyInstance().format(produto.getPreco()) + " cada";
     }
 }
