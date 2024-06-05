@@ -21,9 +21,9 @@ public class Carrinho {
             int quantidadeCarrinho = i.getProduto().getQuantidade();
             int quantidadeItem = item.getQuantidade();
             if (quantidadeItem == quantidadeCarrinho){
-                Color.Red();
+                TerminalColor.Red();
                 System.out.println("Não é possível adicionar o produto ao carrinho. Estoque insuficiente.");
-                Color.RESET();
+                TerminalColor.RESET();
                 return false;
             }
             if(i.getProduto().getId() == item.getProduto().getId()){
@@ -57,35 +57,35 @@ public class Carrinho {
 
     public void ListarCarrinho(boolean gerenciar) {
         if (!this.getItens().isEmpty()) {
-            Color.Cyan();
+            TerminalColor.Cyan();
             System.out.println("\n###SEU CARRINHO ###");
-            Color.RESET();
+            TerminalColor.RESET();
             if (gerenciar) {
                 this.ListarCarrinhoGerenciar();
             } else {
                 this.ListarCarrinhoGeral();
             }
         }else {
-            Color.Red();
+            TerminalColor.Red();
             System.out.println("Carrinho vazio.");
-            Color.RESET();
+            TerminalColor.RESET();
         }
     }
 
 
     private void ListarCarrinhoGeral(){
         for (ItemVenda item : this.getItens()) {
-            Color.RandomColor();
+            TerminalColor.RandomColor();
             System.out.println(item.getProduto().getNome() + ": " + item.getQuantidade() + " unidade(s) - " + NumberFormat.getCurrencyInstance().format(item.getProduto().getPreco()) + " cada");
-            Color.RESET();
+            TerminalColor.RESET();
         }
     }
 
     private void ListarCarrinhoGerenciar(){
         for (ItemVenda item : this.getItens()) {
-            Color.RandomColor();
+            TerminalColor.RandomColor();
             System.out.println("[" + item.getProduto().getId() +"] " + item.getProduto().getNome() + ": " + item.getQuantidade() + " unidade(s)" );
-            Color.RESET();
+            TerminalColor.RESET();
         }
     }
 
@@ -138,16 +138,18 @@ public class Carrinho {
         itens.clear();
     }
 
-
+    public int getQuantidadeItens() {
+        return this.getItens().size();
+    }
 
     public void FinalizarCompra() {
         if (this.getItens().isEmpty()) {
             System.out.println("Carrinho vazio. Não é possível finalizar a compra.");
         } else {
             if(!this.Finalizar()){
-                Color.Red();
+                TerminalColor.Red();
                 System.out.println("Produto com estoque insuficiente.");
-                Color.RESET();
+                TerminalColor.RESET();
                 return;
             }
             FormaPagamento formaPagamento = new FormaPagamento();
@@ -186,9 +188,9 @@ public class Carrinho {
             } else {
                 System.out.println("Detalhes da entrega: Cliente não cadastrado.");
             }
-            Color.Green();
+            TerminalColor.Green();
             System.out.println("\nCompra finalizada com sucesso!");
-            Color.RESET();
+            TerminalColor.RESET();
             limparCarrinho();
         }
     }

@@ -22,11 +22,5 @@
     "nome": "Camisa AC/DC",
     "preco": 29.9,
     "quantidade": 4
-  },
-  {
-    "id": 5,
-    "nome": "Camisa Grilo",
-    "preco": 50.0,
-    "quantidade": 3
   }
 ]

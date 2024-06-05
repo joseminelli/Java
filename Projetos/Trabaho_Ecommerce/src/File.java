@@ -2,10 +2,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileReader;
-import java.io.FileWriter;
+import java.io.*;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
@@ -20,6 +17,17 @@ public class File {
         } catch (Exception e) {
             System.out.println("Erro ao escrever array ao json. " + e.getMessage());
         }
+    }
+
+    public static InputStream CreateFile (String path) {
+        try {
+            FileWriter file = new FileWriter(path);
+            file.close();
+            return new FileInputStream(path);
+        } catch (Exception e) {
+            System.out.println("Erro ao criar arquivo. " + e.getMessage());
+        }
+        return null;
     }
 
     public void WriteJson(String path, Object objeto) {

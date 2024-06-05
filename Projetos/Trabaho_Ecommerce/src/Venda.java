@@ -28,9 +28,9 @@ public class Venda {
         File file = new File();
         List<Venda> vendas = file.ReadArrayJson("src/vendas.json", Venda.class);
         for (Venda venda : vendas) {
-            Color.RandomColor();
+            TerminalColor.RandomColor();
             System.out.println("\n===== VENDA ID: " + venda.id + " =====");
-            Color.RESET();
+            TerminalColor.RESET();
             System.out.println("Cliente: " + venda.cliente.getNome());
             System.out.println("Data: " + venda.data);
             System.out.println("Status: " + venda.status);

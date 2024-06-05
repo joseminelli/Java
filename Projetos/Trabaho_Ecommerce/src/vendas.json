@@ -4,44 +4,35 @@
     "cliente": {
       "id": 1,
       "nome": "José Minelli",
-      "email": "joseminelli04@gmail.com",
+      "email": "zecarminelli@gmail.com",
       "endereco": {
-        "rua": "Uma rua qualquer",
+        "rua": "Rua Sylvio Andrade 415",
         "cidade": "Belo Horizonte",
-        "cep": "12345-678"
+        "cep": "30882560"
       }
     },
     "itens": [
       {
         "produto": {
-          "id": 3,
-          "nome": "Camisa Ramones",
-          "preco": 29.9,
-          "quantidade": 10
-        },
-        "quantidade": 1
-      },
-      {
-        "produto": {
-          "id": 2,
-          "nome": "Vinil - Enema Of The State",
-          "preco": 79.9,
-          "quantidade": 4
+          "id": 5,
+          "nome": "Camisa Grilo",
+          "preco": 50.0,
+          "quantidade": 3
         },
         "quantidade": 1
       }
     ],
-    "data": "May 22, 2024, 12:31:42 PM",
-    "status": "Em andamento"
+    "data": "Jun 4, 2024, 8:40:32 PM",
+    "status": "Concluída"
   },
   {
     "id": 2,
     "cliente": {
       "id": 1,
       "nome": "José Minelli",
-      "email": "joseminelli04@gmail.com",
+      "email": "zecarminelli@gmail.com",
       "endereco": {
-        "rua": "Uma rua qualquer",
+        "rua": "rua aleatória 123",
         "cidade": "Belo Horizonte",
         "cep": "12345-678"
       }
@@ -49,129 +40,15 @@
     "itens": [
       {
         "produto": {
-          "id": 3,
-          "nome": "Camisa Ramones",
-          "preco": 29.9,
-          "quantidade": 9
-        },
-        "quantidade": 1
-      },
-      {
-        "produto": {
-          "id": 2,
-          "nome": "Vinil - Enema Of The State",
-          "preco": 79.9,
-          "quantidade": 3
-        },
-        "quantidade": 1
-      }
-    ],
-    "data": "May 22, 2024, 12:33:40 PM",
-    "status": "Em andamento"
-  },
-  {
-    "id": 3,
-    "cliente": {
-      "id": 1,
-      "nome": "José Minelli",
-      "email": "zecarminelli@gmail.com",
-      "endereco": {
-        "rua": "Rua Sylvio Andrade 415",
-        "cidade": "Belo Horizonte",
-        "cep": "30882560"
-      }
-    },
-    "itens": [
-      {
-        "produto": {
           "id": 5,
           "nome": "Camisa Grilo",
           "preco": 50.0,
-          "quantidade": 6
+          "quantidade": 2
         },
-        "quantidade": 1
-      },
-      {
-        "produto": {
-          "id": 2,
-          "nome": "Vinil - Enema Of The State",
-          "preco": 79.9,
-          "quantidade": 10
-        },
-        "quantidade": 1
+        "quantidade": 2
       }
     ],
-    "data": "Jun 3, 2024, 8:30:31 PM",
-    "status": "Concluída"
-  },
-  {
-    "id": 4,
-    "cliente": {
-      "id": 1,
-      "nome": "José Minelli",
-      "email": "zecarminelli@gmail.com",
-      "endereco": {
-        "rua": "Rua Sylvio Andrade 415",
-        "cidade": "Belo Horizonte",
-        "cep": "30882560"
-      }
-    },
-    "itens": [
-      {
-        "produto": {
-          "id": 5,
-          "nome": "Camisa Grilo",
-          "preco": 50.0,
-          "quantidade": 6
-        },
-        "quantidade": 1
-      },
-      {
-        "produto": {
-          "id": 2,
-          "nome": "Vinil - Enema Of The State",
-          "preco": 79.9,
-          "quantidade": 10
-        },
-        "quantidade": 1
-      }
-    ],
-    "data": "Jun 3, 2024, 8:35:29 PM",
-    "status": "Concluída"
-  },
-  {
-    "id": 5,
-    "cliente": {
-      "id": 1,
-      "nome": "José Minelli",
-      "email": "zecarminelli@gmail.com",
-      "endereco": {
-        "rua": "Rua Sylvio Andrade 415",
-        "cidade": "Belo Horizonte",
-        "cep": "30882560"
-      }
-    },
-    "itens": [
-      {
-        "produto": {
-          "id": 5,
-          "nome": "Camisa Grilo",
-          "preco": 50.0,
-          "quantidade": 6
-        },
-        "quantidade": 1
-      },
-      {
-        "produto": {
-          "id": 2,
-          "nome": "Vinil - Enema Of The State",
-          "preco": 79.9,
-          "quantidade": 10
-        },
-        "quantidade": 1
-      }
-    ],
-    "data": "Jun 3, 2024, 8:37:04 PM",
+    "data": "Jun 4, 2024, 9:48:36 PM",
     "status": "Concluída"
   }
 ]

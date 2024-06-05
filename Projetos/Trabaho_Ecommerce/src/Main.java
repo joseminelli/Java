@@ -16,9 +16,9 @@ public class Main {
         carrinho.setCliente(cliente);
 
         while (true) {
-            Color.Blue();
+            TerminalColor.Blue();
             System.out.println("\n### MENU PRINCIPAL ###");
-            Color.RESET();
+            TerminalColor.RESET();
             System.out.println("1. Gerenciar Produtos");
             System.out.println("2. Ver Todos os Produtos");
             System.out.println("3. Seu Carrinho");
@@ -54,9 +54,9 @@ public class Main {
     }
 
     private static void ContaMenu(Scanner scanner, Cliente cliente) {
-        Color.Blue();
+        TerminalColor.Blue();
         System.out.println("\n### SUA CONTA ###");
-        Color.RESET();
+        TerminalColor.RESET();
         System.out.println("1. Ver Dados da Conta");
         System.out.println("2. Editar Dados da Conta");
         System.out.println("3. Ver Compras");
@@ -83,9 +83,9 @@ public class Main {
     }
 
     private static void GerenciarProdutosMenu(Scanner scanner) {
-        Color.Blue();
+        TerminalColor.Blue();
         System.out.println("\n### GERENCIAR PRODUTOS ###");
-        Color.RESET();
+        TerminalColor.RESET();
         System.out.println("1. Adicionar Produto");
         System.out.println("2. Remover Produto");
         System.out.println("0. Voltar");
@@ -119,9 +119,9 @@ public class Main {
    static void Carrinho(Carrinho carrinho, List<Produto> produtos) {
         Scanner scanner = new Scanner(System.in);
         while (true) {
-            Color.Blue();
+            TerminalColor.Blue();
             System.out.println("\n### CARRINHO ###");
-            Color.RESET();
+            TerminalColor.RESET();
             System.out.println("1. Adicionar Produto ao Carrinho");
             System.out.println("2. Remover Produto do Carrinho");
             System.out.println("3. Ver carrinho");
@@ -176,18 +176,18 @@ public class Main {
             }
             if (produtoSelecionado != null) {
                 if(!carrinho.removerItem(new ItemVenda(produtoSelecionado, 1))) {
-                    Color.Red();
+                    TerminalColor.Red();
                     System.out.println("Erro ao remover o produto do carrinho.");
-                    Color.RESET();
+                    TerminalColor.RESET();
                     return;
                 }
-                Color.Green();
+                TerminalColor.Green();
                 System.out.println("O Produto '"+ produtoSelecionado.getNome() + "' removido do carrinho.");
-                Color.RESET();
+                TerminalColor.RESET();
             } else {
-                Color.Red();
+                TerminalColor.Red();
                 System.out.println("Produto não encontrado.");
-                Color.RESET();
+                TerminalColor.RESET();
             }
         }
     }
@@ -210,13 +210,13 @@ public class Main {
             if (produtoSelecionado != null) {
                 if(!carrinho.adicionarItem(new ItemVenda(produtoSelecionado, 1)))
                     return;
-                Color.Green();
+                TerminalColor.Green();
                 System.out.println("O Produto '"+ produtoSelecionado.getNome() + "' adicionado ao carrinho.");
-                Color.RESET();
+                TerminalColor.RESET();
             } else {
-                Color.Red();
+                TerminalColor.Red();
                 System.out.println("Produto não encontrado.");
-                Color.RESET();
+                TerminalColor.RESET();
             }
         }
     }
@@ -226,9 +226,9 @@ public class Main {
         System.out.println("Pressione ENTER para continuar");
         try {
             int read = System.in.read(new byte[1]);
-            Color.Yellow();
+            TerminalColor.Yellow();
             System.out.println("voltando...");
-            Color.RESET();
+            TerminalColor.RESET();
         } catch (Exception e) {
             System.out.println("Erro ao encerrar");
         }

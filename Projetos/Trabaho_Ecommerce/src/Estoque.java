@@ -72,9 +72,9 @@ public class Estoque {
                 // produtos.add(novoVinil);
                 break;
         }
-        Color.Green();
+        TerminalColor.Green();
         System.out.println("Produto cadastrado com sucesso!");
-        Color.RESET();
+        TerminalColor.RESET();
     }
 
 
@@ -100,27 +100,27 @@ public class Estoque {
             if (produto.getId() == id) {
                 produtos.remove(produto);
                 file.WriteArrayJson("src/produtos.json", produtos);
-                Color.Green();
+                TerminalColor.Green();
                 System.out.println("Produto removido com sucesso!");
-                Color.RESET();
+                TerminalColor.RESET();
                 return;
             }
         }
-        Color.Red();
+        TerminalColor.Red();
         System.out.println("Produto não encontrado!");
-        Color.RESET();
+        TerminalColor.RESET();
     }
 
     public static void listarProdutos() {
         File file = new File();
         List<Produto> produtos = file.ReadArrayJson("src/produtos.json", Produto.class);
-        Color.Cyan();
+        TerminalColor.Cyan();
         System.out.println("\n### LISTA DE PRODUTOS ###");
-        Color.RESET();
+        TerminalColor.RESET();
         for (Produto produto : produtos) {
-            Color.RandomColor();
+            TerminalColor.RandomColor();
             System.out.println("ID: " +produto.getId() + " - " + produto.getNome() + " - " + NumberFormat.getCurrencyInstance().format(produto.getPreco()) + " - " + produto.getQuantidade() + " unidade(s)");
-            Color.RESET();
+            TerminalColor.RESET();
         }
     }
 

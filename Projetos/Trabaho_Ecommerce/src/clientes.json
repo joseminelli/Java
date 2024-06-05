@@ -3,8 +3,8 @@
   "nome": "José Minelli",
   "email": "zecarminelli@gmail.com",
   "endereco": {
-    "rua": "Rua Sylvio Andrade 415",
+    "rua": "rua aleatória 123",
     "cidade": "Belo Horizonte",
-    "cep": "30882560"
+    "cep": "12345-678"
   }
 }

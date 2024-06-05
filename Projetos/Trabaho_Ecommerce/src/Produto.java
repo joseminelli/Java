@@ -40,6 +40,6 @@ public class Produto {
         this.quantidade = quantidade;
     }
     public String toString() {
-        return "ID: " + id + ", Nome: " + nome + ", Preço: " + preco;
+        return "ID: " + id + ", Nome: " + nome + ", Preço: " + preco + ", Quantidade: " + quantidade;
     }
 }

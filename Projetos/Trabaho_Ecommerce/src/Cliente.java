@@ -14,9 +14,9 @@ public class Cliente {
     }
 
     public void MostrarCliente(){
-        Color.Cyan();
+        TerminalColor.Cyan();
         System.out.println("\n### DADOS DO CLIENTE ###");
-        Color.RESET();
+        TerminalColor.RESET();
         System.out.println("Nome: " + this.nome);
         System.out.println("Email: " + this.email);
         System.out.println("Endereço: " + this.endereco.getRua() + ", " + this.endereco.getCidade() + " - " + this.endereco.getCep());
@@ -41,15 +41,15 @@ public class Cliente {
         this.endereco.setCep(cepEndereco);
         File file = new File();
         file.WriteJson("src/clientes.json", this);
-        Color.Green();
+        TerminalColor.Green();
         System.out.println("Conta editada com sucesso!");
-        Color.RESET();
+        TerminalColor.RESET();
     }
 
     public void VerVendas(){
-        Color.Cyan();
+        TerminalColor.Cyan();
         System.out.println("\n### VENDAS DO CLIENTE ###");
-        Color.RESET();
+        TerminalColor.RESET();
         Venda.MostrarVenda();
     }
 
@@ -68,9 +68,9 @@ public class Cliente {
         String cepEndereco = scanner.nextLine();
         Endereco enderecoCliente = new Endereco(ruaEndereco, cidadeEndereco, cepEndereco);
         file.WriteJson("src/clientes.json", new Cliente(1, nomeCliente, emailCliente, enderecoCliente));
-        Color.Green();
+        TerminalColor.Green();
         System.out.println("Cliente cadastrado com sucesso!");
-        Color.RESET();
+        TerminalColor.RESET();
         return new Cliente(1, nomeCliente, emailCliente, enderecoCliente);
     }
 

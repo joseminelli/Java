@@ -1,4 +1,4 @@
-public class Color {
+public class TerminalColor {
     public static void Yellow(){
         System.out.print("\u001B[33m");
     }
