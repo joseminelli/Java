@@ -50,7 +50,7 @@ A interface gráfica permite uma interação visual com a loja, usando component
 A versão de terminal proporciona uma experiência simplificada para usuários que preferem usar o terminal para interagir com a loja.
 
 ### Screenshot do Terminal
-![Interface](assets/terminal.png)
+![Interface](assets/terminal.gif)
 
 
 ## Instalação
