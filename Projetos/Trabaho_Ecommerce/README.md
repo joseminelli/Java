@@ -41,15 +41,16 @@ RetroStore é um sistema de gerenciamento de loja que permite ao usuário:
 
 A interface gráfica permite uma interação visual com a loja, usando componentes do Swing para melhorar a experiência.
 
-**Exemplo da Interface Gráfica**:
+### **Exemplo da Interface Gráfica**
 ![Demo](assets/demo.gif)
 
-### Screenshot do Terminal
-![Interface](assets/terminal.png)
 
 ## Versão de Terminal
 
 A versão de terminal proporciona uma experiência simplificada para usuários que preferem usar o terminal para interagir com a loja.
+
+### Screenshot do Terminal
+![Interface](assets/terminal.png)
 
 
 ## Instalação
