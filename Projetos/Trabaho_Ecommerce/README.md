@@ -14,9 +14,7 @@ RetroStore é um aplicativo Java para gerenciar uma loja de produtos, permitindo
   - [Interface Gráfica](#interface-gráfica)
   - [Terminal](#terminal)
 - [Configuração](#configuração)
-- [Desenvolvimento](#desenvolvimento)
 - [Contribuição](#contribuição)
-- [Licença](#licença)
 
 ## Visão Geral
 
@@ -42,7 +40,10 @@ RetroStore é um sistema de gerenciamento de loja que permite ao usuário:
 A interface gráfica permite uma interação visual com a loja, usando componentes do Swing para melhorar a experiência.
 
 ### **Exemplo da Interface Gráfica**
-![Demo](assets/demo.gif)
+<div>
+  <img src="assets/demo.gif" width="250" alt="Demo">
+</div>
+
 
 
 ## Versão de Terminal
@@ -50,7 +51,10 @@ A interface gráfica permite uma interação visual com a loja, usando component
 A versão de terminal proporciona uma experiência simplificada para usuários que preferem usar o terminal para interagir com a loja.
 
 ### Screenshot do Terminal
-![Interface](assets/terminal.gif)
+<div>
+  <img src="assets/terminal.gif" width="400" alt="Demo">
+</div>
+
 
 
 ## Instalação
