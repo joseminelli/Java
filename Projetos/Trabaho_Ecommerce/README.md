@@ -8,6 +8,7 @@
 
 - [Visão Geral](#visão-geral)
 - [Funcionalidades](#funcionalidades)
+- [Classes](#classes)
 - [Interface Gráfica (MainGUI)](#interface-gráfica-maingui)
 - [Versão de Terminal](#versão-de-terminal)
 - [Instalação](#instalação)
@@ -17,6 +18,7 @@
   - [Terminal](#terminal)
 - [Configuração](#configuração)
 - [Contribuição](#contribuição)
+
 
 ## Visão Geral
 
@@ -37,6 +39,32 @@ RetroStore é um sistema de gerenciamento de loja que permite ao usuário:
   - Gerenciamento de estoque através de comandos de terminal.
   - Finalização de compras no terminal.
 
+## Classes
+Representação das classes utilizadas no projeto
+<br>
+
+### Diagrama de Classe
+<div align="center">
+  <img src="assets/retrostorediagrama.png"alt="logo">
+</div>
+
+### Todas as Classes
+
+<ul>
+  <li>Produto</li>
+  <li>Blusa</li>
+  <li>Vinil</li>
+  <li>ItemVenda</li>
+  <li>Carrinho</li>
+  <li>Estoque</li>
+  <li>Cliente</li>
+  <li>File</li>
+  <li>Venda</li>
+  <li>FormaPagamento</li>
+  <li>Endereço</li>
+  <li>TerminalColor</li>
+</ul>
+
 ## Interface Gráfica (MainGUI)
 
 A interface gráfica permite uma interação visual com a loja, usando componentes do Swing para melhorar a experiência.
@@ -45,8 +73,6 @@ A interface gráfica permite uma interação visual com a loja, usando component
 <div>
   <img src="assets/demo.gif" width="250" alt="Demo">
 </div>
-
-
 
 ## Versão de Terminal
 
