@@ -114,7 +114,7 @@ RetroStore depende das seguintes bibliotecas:
 ## Configuração
 
 - **Arquivos de Configuração**: Certifique-se de que `clientes.json`,  `produtos.json`, `vendas.json` e `carrinho.json` estejam no diretório `src`.
-- **Fonte Personalizada**: Certifique-se de ter o arquivo de fonte `Montserrat.ttf` no diretório apropriado para a interface gráfica.
+- **Personalizações**: Certifique-se de ter o arquivo de fonte `Montserrat.ttf` e o arquivo da logo `logo.png` no diretório `src` para a interface gráfica.
 
 ## Contribuição
 
