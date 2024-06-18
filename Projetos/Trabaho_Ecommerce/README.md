@@ -1,7 +1,9 @@
 <div align="center">
   <img src="src/logo.png" width="200" alt="logo">
-  <p>RetroStore é um aplicativo Java para gerenciar uma loja de produtos, permitindo a visualização, compra e gestão de produtos via uma interface gráfica ou terminal.
-</p>
+  <div>
+    <p>RetroStore é um aplicativo Java para gerenciar uma loja de produtos, permitindo a visualização, compra e gestão de produtos via uma interface gráfica ou terminal. Inspirada no projeto web de mesmo nome "<a href="https://github.com/joseminelli/retro-store">Retro Store web</a>" </p>
+   
+  </div>
 </div>
 
 ## Índice
