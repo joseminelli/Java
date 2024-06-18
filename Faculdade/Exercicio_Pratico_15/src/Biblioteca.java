@@ -10,7 +10,7 @@ public class Biblioteca {
         do{
             ExibirMenu();
             opcao = scanner.nextInt();
-            scanner.nextLine(); // Consumir a nova linha após o número
+            scanner.nextLine();
             switch (opcao) {
                 case 1:
                     AddLivro(livros);

@@ -10,45 +10,5 @@
         "cidade": "Belo Horizonte",
         "cep": "30882560"
       }
-    },
-    "itens": [
-      {
-        "produto": {
-          "id": 5,
-          "nome": "Camisa Grilo",
-          "preco": 50.0,
-          "quantidade": 3
-        },
-        "quantidade": 1
-      }
-    ],
-    "data": "Jun 4, 2024, 8:40:32 PM",
-    "status": "Concluída"
-  },
-  {
-    "id": 2,
-    "cliente": {
-      "id": 1,
-      "nome": "José Minelli",
-      "email": "zecarminelli@gmail.com",
-      "endereco": {
-        "rua": "rua aleatória 123",
-        "cidade": "Belo Horizonte",
-        "cep": "12345-678"
-      }
-    },
-    "itens": [
-      {
-        "produto": {
-          "id": 5,
-          "nome": "Camisa Grilo",
-          "preco": 50.0,
-          "quantidade": 2
-        },
-        "quantidade": 2
-      }
-    ],
-    "data": "Jun 4, 2024, 9:48:36 PM",
-    "status": "Concluída"
-  }
+    }
 ]

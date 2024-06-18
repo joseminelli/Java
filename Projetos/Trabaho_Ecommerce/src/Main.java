@@ -17,7 +17,7 @@ public class Main {
 
         while (true) {
             TerminalColor.Blue();
-            System.out.println("\n### MENU PRINCIPAL ###");
+            System.out.println("\n### RETRO STORE ###");
             TerminalColor.RESET();
             System.out.println("1. Gerenciar Produtos");
             System.out.println("2. Ver Todos os Produtos");
@@ -116,7 +116,7 @@ public class Main {
         Estoque.removerProduto(idProduto);
     }
 
-   static void Carrinho(Carrinho carrinho, List<Produto> produtos) {
+    static void Carrinho(Carrinho carrinho, List<Produto> produtos) {
         Scanner scanner = new Scanner(System.in);
         while (true) {
             TerminalColor.Blue();
@@ -141,7 +141,7 @@ public class Main {
                     Encerrar();
                     break;
                 case 3:
-                    carrinho.ListarCarrinho( false);
+                    carrinho.ListarCarrinho(false);
                     Encerrar();
                     break;
                 case 4:
@@ -163,7 +163,7 @@ public class Main {
         } else {
 
 
-            carrinho.ListarCarrinho( true);
+            carrinho.ListarCarrinho(true);
             System.out.print("Digite o ID do produto que deseja remover do carrinho: ");
             int idProduto = scanner.nextInt();
             scanner.nextLine();
@@ -175,14 +175,14 @@ public class Main {
                 }
             }
             if (produtoSelecionado != null) {
-                if(!carrinho.removerItem(new ItemVenda(produtoSelecionado, 1))) {
+                if (!carrinho.removerItem(new ItemVenda(produtoSelecionado, 1))) {
                     TerminalColor.Red();
                     System.out.println("Erro ao remover o produto do carrinho.");
                     TerminalColor.RESET();
                     return;
                 }
                 TerminalColor.Green();
-                System.out.println("O Produto '"+ produtoSelecionado.getNome() + "' removido do carrinho.");
+                System.out.println("O Produto '" + produtoSelecionado.getNome() + "' removido do carrinho.");
                 TerminalColor.RESET();
             } else {
                 TerminalColor.Red();
@@ -208,10 +208,10 @@ public class Main {
                 }
             }
             if (produtoSelecionado != null) {
-                if(!carrinho.adicionarItem(new ItemVenda(produtoSelecionado, 1)))
+                if (!carrinho.adicionarItem(new ItemVenda(produtoSelecionado, 1)))
                     return;
                 TerminalColor.Green();
-                System.out.println("O Produto '"+ produtoSelecionado.getNome() + "' adicionado ao carrinho.");
+                System.out.println("O Produto '" + produtoSelecionado.getNome() + "' adicionado ao carrinho.");
                 TerminalColor.RESET();
             } else {
                 TerminalColor.Red();
@@ -220,7 +220,6 @@ public class Main {
             }
         }
     }
-
     public static void Encerrar() {
 
         System.out.println("Pressione ENTER para continuar");
