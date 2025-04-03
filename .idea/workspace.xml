@@ -4,249 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec530ab3-832f-4a82-89b5-e214a03701e1" name="Changes" comment="Agenda telefonica com GUI">
-      <change afterPath="$PROJECT_DIR$/Faculdade/ALP/Atividade4/src/Questao2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/AV1_LP/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/AV1_LP/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/AV1_LP/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/AV1_LP/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/AV1_LP/AV1_LP.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/AV1_LP/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/AV1_LP/src/Jogador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/AV1_LP/src/JogadorGUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/AV1_LP/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/AV1_LP/src/MainGUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Atividade_Avaliativa01/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Atividade_Avaliativa01/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Atividade_Avaliativa01/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Atividade_Avaliativa01/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Atividade_Avaliativa01/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Atividade_Avaliativa01/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Atividade_Avaliativa01/Atividade_Avaliativa01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Atividade_Avaliativa01/src/Funcionario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Atividade_Avaliativa01/src/Gerente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Atividade_Avaliativa01/src/TesteFuncionario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Atividades01/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Atividades01/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Atividades01/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Atividades01/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Atividades01/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Atividades01/Atividades01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Atividades01/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula1/.idea/artifacts/Aula1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula1/Aula1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula1/src/Carro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula1/src/TestaCarro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula2/Aula2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula2/src/Livro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula2/src/Pessoa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula2/src/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula3/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula3/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula3/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula3/Aula3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Aula3/src/A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/ExemploAula/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/ExemploAula/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/ExemploAula/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/ExemploAula/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/ExemploAula/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/ExemploAula/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/ExemploAula/ExemploAula.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/ExemploAula/src/Aluno.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/ExemploAula/src/CadastroVetor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/ExemploAula/src/Produto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_01/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_01/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_01/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_01/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_01/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_01/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_01/Aula1_POO_Exercício Prático 01.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_01/Exercicio_Pratico_01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_01/src/Circulo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_01/src/ContaBancaria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_01/src/Pessoa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_01/src/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_02/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_02/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_02/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_02/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_02/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_02/Exercicio_Pratico_02.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_02/src/Aluno.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_02/src/Disciplina.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_02/src/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_03/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_03/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_03/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_03/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_03/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_03/Exercicio_Pratico_03.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_03/src/Aluno.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_03/src/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_04/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_04/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_04/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_04/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_04/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_04/Exercicio_Pratico_04.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_04/src/E_CurtoPrazo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_04/src/E_LongoPrazo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_04/src/Emprestimo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_04/src/Livro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_04/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_04/src/Material.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_04/src/Revista.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_05/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_05/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_05/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_05/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_05/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_05/Exercicio_Pratico_05.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_05/src/Carro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_05/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_05/src/Moto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_05/src/Veiculo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_06/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_06/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_06/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_06/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_06/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_06/Exercicio_Pratico_06.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_06/src/Produto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_06/src/TesteProduto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_07/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_07/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_07/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_07/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_07/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_07/Exercicio_Pratico_07.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_07/src/Funcionario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_07/src/FuncionarioRegular.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_07/src/FuncionarioTerceirizado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_07/src/TestarFuncionario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_09/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_09/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_09/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_09/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_09/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_09/Exercicio_Pratico_09.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_09/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_09/src/Pacote.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_09/src/PacoteExpresso.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_09/src/PacoteSimples.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_09/src/Produto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_10/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_10/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_10/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_10/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_10/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_10/Exercicio_Pratico_10.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_10/src/Aluno.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_10/src/CadastroAlunos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_11/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_11/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_11/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_11/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_11/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_11/Exercicio_Pratico_11.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_11/src/CadastroProdutos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_11/src/Produto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_12/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_12/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_12/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_12/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_12/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_12/Exercicio_Pratico_12.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_12/src/Aluno.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_12/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_13/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_13/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_13/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_13/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_13/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_13/Exercicio_Pratico_13.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_13/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_13/src/Produto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_14/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_14/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_14/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_14/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_14/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_14/Exercicio_Pratico_14.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_14/src/Funcionario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_14/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_15/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_15/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_15/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_15/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_15/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_15/Exercicio_Pratico_15.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_15/src/Biblioteca.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Exercicio_Pratico_15/src/Livro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Loteria_GUI/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Loteria_GUI/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Loteria_GUI/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Loteria_GUI/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Loteria_GUI/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Loteria_GUI/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Loteria_GUI/Loteria_GUI.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Loteria_GUI/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Loteria_GUI/src/Loteria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Recursividade/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Recursividade/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Recursividade/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Recursividade/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Recursividade/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Recursividade/Recursividade.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Recursividade/src/Atividade1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Revisao_POO/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Revisao_POO/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Revisao_POO/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Revisao_POO/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Revisao_POO/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Revisao_POO/Revisao_POO.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Revisao_POO/src/Ebook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Revisao_POO/src/Livro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Revisao_POO/src/LivroFisico.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Simulado_LP1/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Simulado_LP1/.idea/copilot/chatSessions/blobs/version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Simulado_LP1/.idea/copilot/chatSessions/xd.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Simulado_LP1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Treinamento/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Treinamento/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Treinamento/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Treinamento/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Treinamento/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Treinamento/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Treinamento/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Treinamento/Treinamento.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Treinamento/src/Menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Treinamento/src/Variaveis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Treinamento2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Treinamento2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Treinamento2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Treinamento2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Treinamento2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Treinamento2/Treinamento2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Faculdade/Treinamento2/src/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projetos/Trabaho_Ecommerce/src/produtos.json" beforeDir="false" afterPath="$PROJECT_DIR$/Projetos/Trabaho_Ecommerce/src/produtos.json" afterDir="false" />
-    </list>
+    <list default="true" id="ec530ab3-832f-4a82-89b5-e214a03701e1" name="Changes" comment="New projects" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -256,9 +14,21 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "joseminelli"
+  }
+}]]></component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="a7c090da-7e41-4941-a2e5-9fd8bca343ad" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/joseminelli/Java.git",
+    "accountId": "03c002f3-b09b-46cf-9540-6c4bfea980b0"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -271,17 +41,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/zecar/OneDrive/Desktop/Java-main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/zecar/OneDrive/Desktop/Java-main",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\zecar\OneDrive\Desktop\Java\Faculdade" />
@@ -440,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713448122785</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="New projects">
+      <option name="closed" value="true" />
+      <created>1743686724087</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1743686724088</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -471,6 +250,7 @@
     <MESSAGE value="Loteria GUI para Atividade" />
     <MESSAGE value="QuintoPrj(projeto agenda) add" />
     <MESSAGE value="Agenda telefonica com GUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agenda telefonica com GUI" />
+    <MESSAGE value="New projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="New projects" />
   </component>
 </project>

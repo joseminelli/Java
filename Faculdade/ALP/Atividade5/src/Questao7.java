@@ -8,11 +8,16 @@ public class Questao7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int num;
-
         System.out.println("Digite um numero: ");
-        num = scanner.nextInt();
+        int num = scanner.nextInt();
+        scanner.close(); // Boa prática fe
 
-
+        if (num == 2 || num == 3 || num == 5 || num == 7) {
+            System.out.println("Numero " + num + " é primo");
+        } else if (num <= 1 || num % 2 == 0 || num % 3 == 0 || num % 5 == 0 || num % 7 == 0) {
+            System.out.println("Numero " + num + " não é primo");
+        } else {
+            System.out.println("Numero " + num + " é primo");
+        }
     }
 }
